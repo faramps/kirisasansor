@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      skew: {
+        '180': '180deg',
+        '90': '90deg',
+        '75': '75deg',
+      },
     },
   },
   plugins: [],
