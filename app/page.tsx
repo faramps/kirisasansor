@@ -1,10 +1,10 @@
 import Image from "next/image";
-import FooterComponent from "@/Components/FooterComponent";
+import HeaderComponent from "@/Components/HeaderComponent";
 
 export default function Home() {
   return (
     <main className="">
-      <FooterComponent />
+      <HeaderComponent />
 
 
     </main>
