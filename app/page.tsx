@@ -49,7 +49,7 @@ export default function Home() {
 
               <div className={"bg-blue-900 text-white"}>
 
-                  Ney lazım?
+                  Hizmetlerimiz
 
               </div>
 
