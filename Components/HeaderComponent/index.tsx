@@ -2,12 +2,12 @@ import React from "react";
 import phone from "@/public/phone.png"
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.png";
-import "../../../app/globals.css";
+import "../../app/globals.css";
 import phone1 from "@/public/phone1.png";
 import Link from "next/link";
 import logo from "@/public/logo.png";
 import whatsapp1 from "@/public/whatsapp1.png";
-const Index = () => {
+const HeaderComponent = () => {
     return (
         <header
             className={"flex justify-center text-center items-center px-4 space-x-16 border-b border-blue-500 shadow-blue-100"}>
@@ -44,4 +44,4 @@ const Index = () => {
     );
 }
 
-export default Index;
+export default HeaderComponent;
