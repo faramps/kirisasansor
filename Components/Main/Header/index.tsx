@@ -1,7 +1,7 @@
-import phone from  "@/public/phone.png"
+import phone from "@/public/phone.png"
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.png";
-export default function FooterComponent() {
+export default function Index() {
     return (
         <footer className={"flex bg-blue-900 "}>
             <div>
