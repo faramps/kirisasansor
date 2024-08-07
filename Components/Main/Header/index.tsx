@@ -2,7 +2,7 @@ import React from "react";
 import phone from "@/public/phone.png"
 import Image from "next/image";
 import whatsapp from "@/public/whatsapp.png";
-export default function Index() {
+const Index = () => {
     return (
         <footer className={"flex bg-blue-900 "}>
             <div>
@@ -65,3 +65,5 @@ export default function Index() {
         </footer>
     );
 }
+
+export default Index;
