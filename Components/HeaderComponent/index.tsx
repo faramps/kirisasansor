@@ -7,7 +7,7 @@ import phone1 from "@/public/phone1.png";
 import Link from "next/link";
 import logo from "@/public/logo.png";
 import whatsapp1 from "@/public/whatsapp1.png";
-const HeaderComponent = () => {
+const Index = () => {
     return (
         <header
             className={"flex justify-center text-center items-center px-4 space-x-16 border-b border-blue-500 shadow-blue-100"}>
@@ -44,4 +44,4 @@ const HeaderComponent = () => {
     );
 }
 
-export default HeaderComponent;
+export default Index;
