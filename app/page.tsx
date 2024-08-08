@@ -3,7 +3,7 @@ import Image from "next/image";
 import hakkimizda from "@/public/asansor.jpg";
 import React from "react";
 import Link from "next/link";
-import $ from 'jquery';
+import $ from "jquery";
 import {useEffect} from "react";
 
 export default function Home() {
