@@ -27,31 +27,31 @@ export default function RootLayout({
     <html lang="en">
     <body className={inter.className}>
     <header
-        className={"flex justify-center text-center items-center px-4 space-x-16 border-b border-blue-500 shadow-blue-100"}>
-        <div className={"flex items-center"}>
+        className={"flex justify-center text-center items-center px-4 md:space-x-16 border-b border-blue-500 shadow-blue-100"}>
+        <div className={"hidden md:flex items-center hover:text-lg duration-300"}>
             <Image src={phone1} alt={""} height={32} width={32}>
 
             </Image>
             <a href={"tel:+905327195092"} className={"ml-2"}>0532 719 50 92</a>
         </div>
         <ul className={"flex space-x-8"}>
-            <li className={"text-blue-900 hover:text-blue-700"}>
-                <a href={"/"}>Ana Sayfa</a>
+            <li className={"hidden md:flex text-blue-900 hover:text-blue-700"}>
+                <a href={"/"} className={"hover:text-lg duration-300"}>Ana Sayfa</a>
             </li>
             <li className={"text-blue-900 hover:text-blue-700"}>
-                <a href={"/hakkimizda"}>Hakkımızda</a>
+                <a href={"/hakkimizda"} className={"hover:text-lg duration-300"}>Hakkımızda</a>
             </li>
         </ul>
         <Link href={"/"}><Image src={logo} width={125} height={125} alt={"Kiriş Nakliyat"} className={"hover:h-[150px] hover:w-[150px] duration-300"}></Image></Link>
         <ul className={"flex space-x-6"}>
             <li className={"text-blue-900 hover:text-blue-700"}>
-                <a href={"/hizmetlerimiz"}>Hizmetlerimiz</a>
+                <a href={"/hizmetlerimiz"} className={"hover:text-lg duration-300"}>Hizmetlerimiz</a>
             </li>
-            <li className={"text-blue-900 hover:text-blue-700"}>
-                <a href={"/iletisim"}>İletişim</a>
+            <li className={"hidden md:flex text-blue-900 hover:text-blue-700"}>
+                <a href={"/iletisim"} className={"hover:text-lg duration-300"}>İletişim</a>
             </li>
         </ul>
-        <div className={"flex items-center "}>
+        <div className={"hidden md:flex items-center hover:text-lg duration-300"}>
             <Image src={whatsapp1} alt={""} height={32} width={32}>
 
             </Image>
@@ -63,8 +63,8 @@ export default function RootLayout({
 
     <footer className={"flex bg-blue-900 "}>
         <div>
-            <ul className={"grid grid-cols-2 gap-4 my-16"}>
-                <li className={" grid text-center justify-center gap-4"}>
+            <ul className={"md:grid grid-cols-2 gap-4 my-16"}>
+                <li className={" grid text-center justify-center gap-4 mb-4"}>
                     <h1 className={"text-5xl font-bold text-white mt-8 my-8"}>İletişim</h1>
                     <div className={"flex items-center"}>
                         <Image src={phone} alt={"telefon"} height={34} width={34} className={"flex "}>
@@ -80,7 +80,7 @@ export default function RootLayout({
                             Ulaşın&nbsp;&nbsp;&nbsp;</a>
                     </div>
                 </li>
-                <li className={"grid text-white"}>
+                <li className={"grid text-white mx-4"}>
                     Kiriş Kiralık Mobil Asansör olarak, Denizli’de evden eve nakliyat sektöründe yenilikçi ve
                     güvenilir çözümler sunmak için buradayız. Yılların verdiği tecrübe ile taşınma sürecinizi
                     kolaylaştırmak ve eşyalarınızı en güvenli şekilde yeni adresinize ulaştırmak için mobil

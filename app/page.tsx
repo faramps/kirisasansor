@@ -73,8 +73,8 @@ export default function Home() {
                   <h1 className={"text-4xl text-center font-bold"}>
                       Hakkımızda
                   </h1>
-                  <div className={"grid grid-cols-6 mx-[10%] gap-4 my-4 justify-center items-center"}>
-                      <div className={"col-span-2"}>
+                  <div className={"md:grid grid-cols-6 mx-[10%] gap-4 my-4 justify-center items-center"}>
+                      <div className={"col-span-2 hidden md:grid"}>
                           <Image className={"rounded-xl"} src={hakkimizda} alt={"Hakkımızda"}></Image>
                       </div>
                       <div className="col-span-4 ml-4  ">
@@ -159,23 +159,23 @@ export default function Home() {
 
               <div className="mt-16">
                   <h1 className="text-4xl text-center font-bold">Hizmetlerimiz</h1>
-                  <div className="grid grid-cols-6 mx-[10%] gap-12 mt-8">
+                  <div className="md:grid grid-cols-6 mx-[10%] gap-12 mt-8">
                       {/* Flip Container */}
                       <div
                           className="col-span-2 perspective items-center text-center hover:bg-black delay-200 duration-300 rounded-xl justify-center">
-                          {/*<h2 className="text-2xl font-bold text-center flex justify-center items-center">Evden Eve Nakliyat</h2>*/}
                           <div className="flip-card hover:opacity-50 duration-300">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p className={"z-50 text-white"}>Back Side Content</p>
+                                  <div className="text-pink-600">hebele</div>
                               </div>
                           </div>
                       </div>
+
                       {/* Flip Container */}
-                      <div className="col-span-2 perspective">
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
@@ -187,7 +187,7 @@ export default function Home() {
                           </div>
                       </div>
                       {/* Flip Container */}
-                      <div className="col-span-2 perspective">
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
@@ -199,7 +199,7 @@ export default function Home() {
                           </div>
                       </div>
                       {/* Flip Container */}
-                      <div className="col-span-2 perspective">
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
@@ -211,7 +211,7 @@ export default function Home() {
                           </div>
                       </div>
                       {/* Flip Container */}
-                      <div className="col-span-2 perspective">
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
@@ -223,7 +223,7 @@ export default function Home() {
                           </div>
                       </div>
                       {/* Flip Container */}
-                      <div className="col-span-2 perspective">
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
                                   <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
