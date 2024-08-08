@@ -11,7 +11,7 @@ export default function Home() {
         const texts = ["Kiriş Asansör", "Asansör İle Eşyalarınızı taşıyın!", "Denizli Asansör"];
         let index = 0;
 
-        function typeText(text, callback) {
+        function typeText(text: string, callback: () => void) {
             let charIndex = 0;
             const interval = setInterval(() => {
                 $('#animatedText').text(text.slice(0, charIndex + 1));
