@@ -10,7 +10,8 @@ export default function Home() {
       <main className="">
           <main className={""}>
               <div className="flex h-screen w-full items-center text-center justify-center bg-black text-white">
-              <span className={"bg-[url('/asansor.jpg')] h-full w-full absolute bg-center opacity-65 bg-fixed bg-cover"}>
+              <span
+                  className={"bg-[url('/asansor.jpg')] h-full w-full absolute bg-center opacity-65 bg-fixed bg-cover"}>
 
               </span>
                   {/*<Image src={asansor} alt={"Asansör"} className={"opacity-10 absolute w-screen h-screen"}></Image>*/}
@@ -18,7 +19,9 @@ export default function Home() {
                       <h1 className={"text-6xl font-bold z-10"}>Kiriş Asansör</h1>
                       <p className={"text-md z-10"}>Denizli Asansör</p>
                       <div className={"z-10 flex justify-center"}>
-                        <Link href={"tel:+905327195092"} className={"border-blue-700 hover:bg-gradient-to-r from-teal-500 to-blue-500 hover:shadow-lg hover:shadow-sky-400 hover:border-sky-400 transition-all duration-700 text-white opacity-100 border-2 p-2 rounded-2xl"}>İletişime Geç</Link>
+                          <Link href={"tel:+905327195092"}
+                                className={"border-blue-700 hover:bg-gradient-to-r from-teal-500 to-blue-500 hover:shadow-lg hover:shadow-sky-400 hover:border-sky-400 transition-all duration-700 text-white opacity-100 border-2 p-2 rounded-2xl"}>İletişime
+                              Geç</Link>
                       </div>
                   </div>
               </div>
@@ -40,7 +43,8 @@ export default function Home() {
                           kalite standartlarını koruyoruz.
 
                           Denizli ve çevresinde taşınmanın ne kadar zahmetli olabileceğini biliyoruz. Özellikle yüksek
-                          katlı binalarda oturanlar için eşyaların taşınması büyük bir stres kaynağı olabilir. Geleneksel
+                          katlı binalarda oturanlar için eşyaların taşınması büyük bir stres kaynağı olabilir.
+                          Geleneksel
                           yöntemlerle taşınmak, eşyalarınızın zarar görme riskini artırırken, aynı zamanda zaman kaybına
                           da neden olabilir. İşte tam bu noktada, Kiriş Kiralık Mobil Asansör olarak devreye giriyoruz.
 
@@ -49,7 +53,8 @@ export default function Home() {
                           Firmamızın sunduğu asansörlü nakliyat hizmeti, taşınma sürecini daha hızlı ve güvenli hale
                           getiren bir çözümdür. Eşyalarınızı binadan indirmek veya binaya çıkarmak için özel olarak
                           tasarlanmış mobil asansörlerimiz, zamandan tasarruf etmenizi sağlarken, eşyalarınızın da zarar
-                          görme riskini en aza indirir. Bu sayede, taşınma işleminiz çok daha kısa sürede ve sorunsuz bir
+                          görme riskini en aza indirir. Bu sayede, taşınma işleminiz çok daha kısa sürede ve sorunsuz
+                          bir
                           şekilde tamamlanır.
 
                           Denizli’nin farklı bölgelerinde sunduğumuz bu hizmet, özellikle dar merdivenlere sahip binalar
@@ -64,7 +69,8 @@ export default function Home() {
                           Eşyalarınızı taşırken gösterdiğimiz özen, hizmet kalitemizle birleştiğinde ortaya çıkan
                           sonuçlardan son derece memnun kalacağınıza eminiz.
 
-                          - *Tecrübeli Kadro:* Nakliyat sürecini en iyi şekilde yönetmek için alanında uzman ve deneyimli
+                          - *Tecrübeli Kadro:* Nakliyat sürecini en iyi şekilde yönetmek için alanında uzman ve
+                          deneyimli
                           bir ekibe sahibiz. Eşyalarınızı taşırken her bir parçanın özenle korunmasını sağlıyoruz.
 
                           - *Güvenli Taşıma:* Mobil asansörlerimiz, eşyalarınızın güvenli bir şekilde taşınması için
@@ -86,18 +92,21 @@ export default function Home() {
 
                           Firmamız, Denizli’deki taşınma ihtiyaçlarınıza en uygun çözümü sunmak için her zaman hazırdır.
                           Eşyalarınızın güvenliği ve müşteri memnuniyeti bizim için önceliklidir. Müşterilerimize
-                          sunduğumuz çözümlerle, taşınma sürecinin zahmetli ve stresli bir süreç olmasını engelliyor, her
+                          sunduğumuz çözümlerle, taşınma sürecinin zahmetli ve stresli bir süreç olmasını engelliyor,
+                          her
                           adımda yanınızda oluyoruz.
 
                           *Hedefimiz: En İyi Nakliyat Deneyimi*
 
                           Kiriş Kiralık Mobil Asansör olarak hedefimiz, Denizli’de taşınmayı bir problem olmaktan
-                          çıkararak, kolay ve keyifli bir deneyime dönüştürmektir. Mobil asansörlü nakliyat hizmetimiz, bu
+                          çıkararak, kolay ve keyifli bir deneyime dönüştürmektir. Mobil asansörlü nakliyat hizmetimiz,
+                          bu
                           hedefe ulaşmamızda bize büyük bir avantaj sağlamaktadır. Müşterilerimize sunduğumuz kaliteli
                           hizmet ile Denizli’de taşınmanın en güvenli ve pratik yolu olmaya devam edeceğiz.
 
                           Eğer siz de Denizli’de asansörlü nakliyat hizmetine ihtiyaç duyuyorsanız, Kiriş Kiralık Mobil
-                          Asansör olarak size en iyi hizmeti sunmak için buradayız. Eşyalarınızı taşırken güven, kalite ve
+                          Asansör olarak size en iyi hizmeti sunmak için buradayız. Eşyalarınızı taşırken güven, kalite
+                          ve
                           hızdan ödün vermeyen hizmet anlayışımızla yanınızdayız. Bizi tercih ederek taşınma sürecinizin
                           ne kadar kolay olabileceğini keşfedin.
                       </div>
@@ -105,43 +114,84 @@ export default function Home() {
                   </div>
               </div>
 
-              <div className={""}>
-
-                  <div className={"mt-16"}>
-                      <h1 className={"text-4xl text-center font-bold"}>
-                          Hizmetlerimiz
-                      </h1>
-                      <div className={"grid grid-cols-6 mx-[10%] gap-12 mt-8 "}>
-                          <div className={"col-span-2 rounded-xl"}>
-                              <div className="flex">
-                                  <div className="bg-[url('/asansor.jpg')] h-52 w-full bg-contain rounded-xl"></div>
+              <div className="mt-16">
+                  <h1 className="text-4xl text-center font-bold">Hizmetlerimiz</h1>
+                  <div className="grid grid-cols-6 mx-[10%] gap-12 mt-8">
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
                               </div>
                           </div>
-                          <div className={"col-span-2 "}>
-                              <Image className={"rounded-xl   "} src={hakkimizda} alt={"Hakkımızda"}></Image>
-
-                          </div>
-                          <div className={"col-span-2"}>
-                              <Image className={"rounded-xl x "} src={hakkimizda} alt={"Hakkımızda"}></Image>
-                          </div>
-                          <div className={"col-span-2"}>
-                              <Image className={"rounded-xl  "} src={hakkimizda} alt={"Hakkımızda"}></Image>
-
-                          </div>
-                          <div className={"col-span-2"}>
-                              <Image className={"rounded-xl  "} src={hakkimizda} alt={"Hakkımızda"}></Image>
-                          </div>
-                          <div className={"col-span-2"}>
-                              <Image className={"rounded-xl  "} src={hakkimizda} alt={"Hakkımızda"}></Image>
-                          </div>
-
-
                       </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
+                              </div>
+                          </div>
+                      </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
+                              </div>
+                          </div>
+                      </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
+                              </div>
+                          </div>
+                      </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
+                              </div>
+                          </div>
+                      </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <p>Back Side Content</p>
+                              </div>
+                          </div>
+                      </div>
+
                   </div>
-
-
               </div>
-
               <div className="">
                   İletişim
               </div>
