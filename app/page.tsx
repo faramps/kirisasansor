@@ -23,7 +23,7 @@ export default function Home() {
             }, 100);
         }
 
-        function deleteText(callback) {
+        function deleteText(callback: () => void) {
             let text = $('#animatedText').text();
             let charIndex = text.length;
             const interval = setInterval(() => {
