@@ -161,14 +161,25 @@ export default function Home() {
                   <h1 className="text-4xl text-center font-bold">Hizmetlerimiz</h1>
                   <div className="md:grid grid-cols-6 mx-[10%] gap-12 mt-8 text-white">
                       {/* Flip Container */}
-                      <div
-                          className="col-span-2 perspective items-center text-center hover:bg-black delay-200 duration-300 rounded-xl justify-center">
+                      {/*<div*/}
+                      {/*    className="col-span-2 perspective items-center text-center hover:bg-black delay-200 duration-300 rounded-xl justify-center">*/}
+                      {/*    <div className="flip-card">*/}
+                      {/*        <div className="flip-card-front">*/}
+                      {/*            <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda} alt="Hakkımızda"/>*/}
+                      {/*        </div>*/}
+                      {/*        <div className="flip-card-back">*/}
+                      {/*            <div className="text-pink-600 text-2xl font-bold">hebele</div>*/}
+                      {/*        </div>*/}
+                      {/*    </div>*/}
+                      {/*</div>*/}
+                      <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda} alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <div className="text-pink-600 text-2xl font-bold">hebele</div>
+                                  <p>Back Side Content</p>
                               </div>
                           </div>
                       </div>
@@ -235,9 +246,6 @@ export default function Home() {
                       </div>
 
                   </div>
-              </div>
-              <div className="">
-                  İletişim
               </div>
 
           </main>
