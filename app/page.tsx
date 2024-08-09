@@ -62,7 +62,7 @@ export default function Home() {
                       <h1 id={"animatedText"} className={"text-6xl font-bold z-10 fadeInOut"}>Kiriş Asansör</h1>
                       <p className={"text-md z-10"}>Denizli Asansör</p>
                       <div className={"z-10 flex justify-center"}>
-                          <Link href={"tel:+905327195092"}
+                          <Link href={"/iletisim"}
                                 className={"border-blue-700 hover:bg-gradient-to-r from-teal-500 to-blue-500 hover:shadow-lg hover:shadow-sky-400 hover:border-sky-400 transition-all duration-700 text-white opacity-100 border-2 p-2 rounded-2xl"}>İletişime
                               Geç</Link>
                       </div>
@@ -159,17 +159,16 @@ export default function Home() {
 
               <div className="mt-16">
                   <h1 className="text-4xl text-center font-bold">Hizmetlerimiz</h1>
-                  <div className="md:grid grid-cols-6 mx-[10%] gap-12 mt-8">
+                  <div className="md:grid grid-cols-6 mx-[10%] gap-12 mt-8 text-white">
                       {/* Flip Container */}
                       <div
                           className="col-span-2 perspective items-center text-center hover:bg-black delay-200 duration-300 rounded-xl justify-center">
-                          <div className="flip-card hover:opacity-50 duration-300">
+                          <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda} alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <div className="text-pink-600">hebele</div>
+                                  <div className="text-pink-600 text-2xl font-bold">hebele</div>
                               </div>
                           </div>
                       </div>

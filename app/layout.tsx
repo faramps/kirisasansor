@@ -28,7 +28,7 @@ export default function RootLayout({
     <body className={inter.className}>
     <header
         className={"flex justify-center text-center items-center md:px-4 px-2 gap-4 md:space-x-16 border-b border-blue-500 shadow-blue-100"}>
-        <div className={"hidden md:flex items-center hover:text-lg duration-300"}>
+        <div className={"hidden md:flex items-center hover:text-lg duration-300 hover:text-red-600 "}>
             <Image src={phone1} alt={""} height={32} width={32}>
 
             </Image>
@@ -51,7 +51,7 @@ export default function RootLayout({
                 <a href={"/iletisim"} className={"hover:text-lg duration-300"}>İletişim</a>
             </li>
         </ul>
-        <div className={"hidden md:flex items-center hover:text-lg duration-300"}>
+        <div className={"hidden md:flex items-center hover:text-lg duration-300 hover:text-green-600"}>
             <Image src={whatsapp1} alt={""} height={32} width={32}>
 
             </Image>
