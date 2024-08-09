@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
     <body className={inter.className}>
     <header
-        className={"flex justify-center text-center items-center px-4 md:space-x-16 border-b border-blue-500 shadow-blue-100"}>
+        className={"flex justify-center text-center items-center md:px-4 px-2 gap-4 md:space-x-16 border-b border-blue-500 shadow-blue-100"}>
         <div className={"hidden md:flex items-center hover:text-lg duration-300"}>
             <Image src={phone1} alt={""} height={32} width={32}>
 
