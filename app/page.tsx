@@ -5,10 +5,11 @@ import React from "react";
 import Link from "next/link";
 import $ from "jquery";
 import {useEffect} from "react";
+import hak1 from "@/public/hak1.jpeg"
 
 export default function Home() {
     useEffect(() => {
-        const texts = ["Kiriş Asansör", "Asansör İle Eşyalarınızı taşıyın!", "Denizli Asansör"];
+        const texts = ["Kiriş Asansör", "Asansör İle Eşyalarınızı taşıyın!", "Denizli Asansör","Moloz alım","Mobilya , Pimapen Çıkartım"];
         let index = 0;
 
         function typeText(text: string, callback: () => void) {
@@ -75,21 +76,34 @@ export default function Home() {
                   </h1>
                   <div className={"md:grid grid-cols-6 mx-[10%] gap-4 my-4 justify-center items-center"}>
                       <div className={"col-span-2 hidden md:grid"}>
-                          <Image className={"rounded-xl"} src={hakkimizda} alt={"Hakkımızda"}></Image>
+                          <Image className={"rounded-xl"} src={hak1} alt={"hak1"}></Image>
                       </div>
                       <div className="col-span-4 ml-4  ">
-                          Kiriş Kiralık Mobil Asansör olarak, Denizli’de evden eve nakliyat sektöründe yenilikçi ve
-                          güvenilir çözümler sunmak için buradayız. Yılların verdiği tecrübe ile taşınma sürecinizi
-                          kolaylaştırmak ve eşyalarınızı en güvenli şekilde yeni adresinize ulaştırmak için mobil
-                          asansörlü nakliyat hizmetini hayata geçirdik. Nakliyat sektörü, her zaman dikkat ve özen
-                          gerektiren bir alandır. Biz de bu bilinçle hareket ederek, eşyalarınızı taşırken en yüksek
-                          kalite standartlarını koruyoruz.
+                          "Denizli Asansör Kiralama" sektöründe uzun yıllardır güvenle hizmet veren Kiriş Asansör,
+                          Denizli'deki her türlü taşıma ihtiyacınız için kaliteli ve uygun fiyatlı kiralık asansör
+                          çözümleri sunmaktadır. Kiriş Asansör olarak, Denizli'de evden eve nakliyat, inşaat malzemesi
+                          taşıma, mobilya taşınması, moloz taşıma ve ofis taşınması gibi zorlu işlemleri
+                          kolaylaştırıyoruz. Denizli'deki taşınma süreçlerini daha hızlı, güvenli ve verimli hale
+                          getirmek için güçlü ve yüksek kapasiteli kiralık asansörlerimiz ile taşıma işlerinizi sorunsuz
+                          bir şekilde gerçekleştiriyoruz.
 
-                          Denizli ve çevresinde taşınmanın ne kadar zahmetli olabileceğini biliyoruz. Özellikle yüksek
-                          katlı binalarda oturanlar için eşyaların taşınması büyük bir stres kaynağı olabilir.
-                          Geleneksel
-                          yöntemlerle taşınmak, eşyalarınızın zarar görme riskini artırırken, aynı zamanda zaman kaybına
-                          da neden olabilir. İşte tam bu noktada, Kiriş Kiralık Mobil Asansör olarak devreye giriyoruz.
+                          Kiriş Asansör, Denizli'deki müşterilerine her türlü taşınma ve yük taşıma işleminde en iyi
+                          çözümleri sunar. Yüksek katlara inşaat malzemesi taşımak, ağır mobilyaları yeni evinize
+                          güvenle taşımak veya ofis taşınması gibi işlemler için Denizli asansör kiralama hizmetimiz her
+                          zaman yanınızda. Gelişmiş teknolojilere sahip kiralık asansörlerimiz sayesinde taşıma
+                          işlemlerinizde iş gücünden tasarruf sağlarken, işlerinizi daha hızlı ve güvenli bir şekilde
+                          tamamlıyoruz.
+
+                          İster büyük bir inşaat projesi, ister küçük bir ev taşıma işlemi olsun, Denizli'de Kiriş
+                          Asansör her türlü ihtiyaca yönelik uygun fiyatlarla kiralık asansör hizmeti sunmaktadır.
+                          Denizli asansör kiralama ihtiyacınızda, taşınma işlemlerinizi kolaylaştırmak ve zamandan
+                          tasarruf sağlamak için bizimle iletişime geçebilirsiniz. Kiriş Asansör ile Denizli'deki taşıma
+                          işleriniz hızlı, güvenli ve ekonomik şekilde tamamlanır.
+
+                          Kiriş Asansör, Denizli'de kiralık asansör çözümleri ile taşınma, inşaat malzemesi taşıma,
+                          moloz taşımacılığı ve daha fazlası için en güvenilir, en pratik ve en ekonomik seçeneği
+                          sunmaktadır. Hemen bizi arayın ve Denizli'deki asansör kiralama ihtiyaçlarınızda profesyonel
+                          destek alın!
 
                           *Mobil Asansörlü Nakliyat Hizmeti ile Kolay Taşınma*
 
@@ -161,17 +175,6 @@ export default function Home() {
                   <h1 className="text-4xl text-center font-bold">Hizmetlerimiz</h1>
                   <div className="md:grid grid-cols-6 mx-[10%] gap-12 mt-8 text-white">
                       {/* Flip Container */}
-                      {/*<div*/}
-                      {/*    className="col-span-2 perspective items-center text-center hover:bg-black delay-200 duration-300 rounded-xl justify-center">*/}
-                      {/*    <div className="flip-card">*/}
-                      {/*        <div className="flip-card-front">*/}
-                      {/*            <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda} alt="Hakkımızda"/>*/}
-                      {/*        </div>*/}
-                      {/*        <div className="flip-card-back">*/}
-                      {/*            <div className="text-pink-600 text-2xl font-bold">hebele</div>*/}
-                      {/*        </div>*/}
-                      {/*    </div>*/}
-                      {/*</div>*/}
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
@@ -179,20 +182,12 @@ export default function Home() {
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p>Back Side Content</p>
-                              </div>
-                          </div>
-                      </div>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
 
-                      {/* Flip Container */}
-                      <div className="col-span-2 mb-4 perspective">
-                          <div className="flip-card">
-                              <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
-                              </div>
-                              <div className="flip-card-back">
-                                  <p>Back Side Content</p>
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
                               </div>
                           </div>
                       </div>
@@ -204,7 +199,12 @@ export default function Home() {
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p>Back Side Content</p>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
+
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
                               </div>
                           </div>
                       </div>
@@ -216,7 +216,12 @@ export default function Home() {
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p>Back Side Content</p>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
+
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
                               </div>
                           </div>
                       </div>
@@ -228,7 +233,12 @@ export default function Home() {
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p>Back Side Content</p>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
+
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
                               </div>
                           </div>
                       </div>
@@ -240,15 +250,40 @@ export default function Home() {
                                          alt="Hakkımızda"/>
                               </div>
                               <div className="flip-card-back">
-                                  <p>Back Side Content</p>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
+
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
                               </div>
                           </div>
                       </div>
+                      {/* Flip Container */}
+                      <div className="col-span-2 mb-4 perspective">
+                          <div className="flip-card">
+                              <div className="flip-card-front">
+                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
+                                         alt="Hakkımızda"/>
+                              </div>
+                              <div className="flip-card-back">
+                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
+                                         alt="Hakkımızda"/>
+
+
+                                  <div className="absolute inset-0 bg-black opacity-50"></div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                              </div>
+                          </div>
+                      </div>
+                      
 
                   </div>
               </div>
 
+
           </main>
       </main>
-  );
+  )
+      ;
 }
