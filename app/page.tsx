@@ -78,35 +78,35 @@ export default function Home() {
                       <div className={"col-span-2 hidden md:grid"}>
                           <Image className={"rounded-xl"} src={hak1} alt={"hak1"}></Image>
                       </div>
-                      <div className="col-span-4 ml-4  ">
-                          "Denizli Asansör Kiralama" sektöründe uzun yıllardır güvenle hizmet veren Kiriş Asansör,
-                          Denizli'deki her türlü taşıma ihtiyacınız için kaliteli ve uygun fiyatlı kiralık asansör
-                          çözümleri sunmaktadır. Kiriş Asansör olarak, Denizli'de evden eve nakliyat, inşaat malzemesi
+                      <div className="col-span-4 ml-4  "><h1>
+                          Denizli Asansör Kiralama sektöründe uzun yıllardır güvenle hizmet veren Kiriş Asansör,
+                          Denizlideki her türlü taşıma ihtiyacınız için kaliteli ve uygun fiyatlı kiralık asansör
+                          çözümleri sunmaktadır. Kiriş Asansör olarak, Denizlide evden eve nakliyat, inşaat malzemesi
                           taşıma, mobilya taşınması, moloz taşıma ve ofis taşınması gibi zorlu işlemleri
-                          kolaylaştırıyoruz. Denizli'deki taşınma süreçlerini daha hızlı, güvenli ve verimli hale
+                          kolaylaştırıyoruz. Denizli deki taşınma süreçlerini daha hızlı, güvenli ve verimli hale
                           getirmek için güçlü ve yüksek kapasiteli kiralık asansörlerimiz ile taşıma işlerinizi sorunsuz
                           bir şekilde gerçekleştiriyoruz.
 
-                          Kiriş Asansör, Denizli'deki müşterilerine her türlü taşınma ve yük taşıma işleminde en iyi
+                          Kiriş Asansör, Denizlideki müşterilerine her türlü taşınma ve yük taşıma işleminde en iyi
                           çözümleri sunar. Yüksek katlara inşaat malzemesi taşımak, ağır mobilyaları yeni evinize
                           güvenle taşımak veya ofis taşınması gibi işlemler için Denizli asansör kiralama hizmetimiz her
                           zaman yanınızda. Gelişmiş teknolojilere sahip kiralık asansörlerimiz sayesinde taşıma
                           işlemlerinizde iş gücünden tasarruf sağlarken, işlerinizi daha hızlı ve güvenli bir şekilde
                           tamamlıyoruz.
 
-                          İster büyük bir inşaat projesi, ister küçük bir ev taşıma işlemi olsun, Denizli'de Kiriş
+                          İster büyük bir inşaat projesi, ister küçük bir ev taşıma işlemi olsun, Denizlide Kiriş
                           Asansör her türlü ihtiyaca yönelik uygun fiyatlarla kiralık asansör hizmeti sunmaktadır.
                           Denizli asansör kiralama ihtiyacınızda, taşınma işlemlerinizi kolaylaştırmak ve zamandan
-                          tasarruf sağlamak için bizimle iletişime geçebilirsiniz. Kiriş Asansör ile Denizli'deki taşıma
+                          tasarruf sağlamak için bizimle iletişime geçebilirsiniz. Kiriş Asansör ile Denizlideki taşıma
                           işleriniz hızlı, güvenli ve ekonomik şekilde tamamlanır.
 
-                          Kiriş Asansör, Denizli'de kiralık asansör çözümleri ile taşınma, inşaat malzemesi taşıma,
+                          Kiriş Asansör, Denizlide kiralık asansör çözümleri ile taşınma, inşaat malzemesi taşıma,
                           moloz taşımacılığı ve daha fazlası için en güvenilir, en pratik ve en ekonomik seçeneği
-                          sunmaktadır. Hemen bizi arayın ve Denizli'deki asansör kiralama ihtiyaçlarınızda profesyonel
+                          sunmaktadır. Hemen bizi arayın ve Denizlideki asansör kiralama ihtiyaçlarınızda profesyonel
                           destek alın!
 
                           *Mobil Asansörlü Nakliyat Hizmeti ile Kolay Taşınma*
-
+                      </h1>
                           {/*Firmamızın sunduğu asansörlü nakliyat hizmeti, taşınma sürecini daha hızlı ve güvenli hale*/}
                           {/*getiren bir çözümdür. Eşyalarınızı binadan indirmek veya binaya çıkarmak için özel olarak*/}
                           {/*tasarlanmış mobil asansörlerimiz, zamandan tasarruf etmenizi sağlarken, eşyalarınızın da zarar*/}
@@ -276,7 +276,7 @@ export default function Home() {
                               </div>
                           </div>
                       </div>
-                      
+
 
                   </div>
               </div>
