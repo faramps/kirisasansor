@@ -6,6 +6,12 @@ import Link from "next/link";
 import $ from "jquery";
 import {useEffect} from "react";
 import hak1 from "@/public/hak1.jpeg"
+import sira6 from "@/public/sıra6.jpeg"
+import sira4 from "@/public/sıra4.jpeg"
+import sira5 from "@/public/5sıra.jpeg"
+import sira2 from  "@/public/sira2.jpeg"
+import sira3 from  "@/public/sira3.jpeg"
+
 
 export default function Home() {
     useEffect(() => {
@@ -55,7 +61,7 @@ export default function Home() {
           <main className={""}>
               <div className="flex h-screen w-full items-center text-center justify-center bg-black text-white">
               <span
-                  className={"bg-[url('/asansor.jpg')] h-full w-full absolute bg-center opacity-65 bg-fixed bg-cover"}>
+                  className={"bg-[url('/hak1.jpeg')] h-full w-full absolute bg-center opacity-65 bg-fixed bg-cover"}>
 
               </span>
                   {/*<Image src={asansor} alt={"Asansör"} className={"opacity-10 absolute w-screen h-screen"}></Image>*/}
@@ -187,7 +193,7 @@ export default function Home() {
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>Şehir içi mobilya pimapen marangoz moloz vb. inşaat işlerinizde iş gücünüzü azaltıyoruz!</div>
                               </div>
                           </div>
                       </div>
@@ -195,16 +201,17 @@ export default function Home() {
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira2}
+                                         alt="sira2"/>
+
                               </div>
                               <div className="flip-card-back">
-                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira2}
+                                         alt="sira2"/>
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}></div>
                               </div>
                           </div>
                       </div>
@@ -212,16 +219,16 @@ export default function Home() {
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={sira3}
+                                         alt="sira3"/>
                               </div>
                               <div className="flip-card-back">
-                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira3}
+                                         alt="sira3"/>
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>13. kata kadar asnasör hizmeti verilir.</div>
                               </div>
                           </div>
                       </div>
@@ -229,16 +236,16 @@ export default function Home() {
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={sira4}
+                                         alt="sira4"/>
                               </div>
                               <div className="flip-card-back">
-                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira4}
+                                         alt="sira4"/>
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>Şehir içi ev eşyası , mobilya taşımacılığı!</div>
                               </div>
                           </div>
                       </div>
@@ -246,16 +253,16 @@ export default function Home() {
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={sira5}
+                                         alt="sira5"/>
                               </div>
                               <div className="flip-card-back">
-                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira5}
+                                         alt="sira5"/>
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>Şehir dışından gelen meslektaşlarımıza  asansör , personel ,depolama temin edilir. </div>
                               </div>
                           </div>
                       </div>
@@ -263,16 +270,20 @@ export default function Home() {
                       <div className="col-span-2 mb-4 perspective">
                           <div className="flip-card">
                               <div className="flip-card-front">
-                                  <Image className="w-full h-full object-cover rounded-xl" src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl" src={sira6}
+                                         alt="sira6"/>
                               </div>
                               <div className="flip-card-back">
-                                  <Image className="w-full h-full object-cover rounded-xl " src={hakkimizda}
-                                         alt="Hakkımızda"/>
+                                  <Image className="w-full h-full object-cover rounded-xl " src={sira6}
+                                         alt="sira6"/>
 
 
                                   <div className="absolute inset-0 bg-black opacity-50"></div>
-                                  <div className={"absolute inset-1 text-center justify-center items-center text-2xl mt-[25%]"}>İtina ile eşyalarınızı taşırız</div>
+                                  <div
+                                      className={"absolute inset-1 text-center justify-center items-center text-2xl  mt-[15%]"}>Şehir
+                                      içi , şehirler arası nakliyemiz mevcuttur.<br/> Transit araç , damperli araç , on teker ,
+                                    <br/>  tır temin edilir.<br/> Bizlere sormadan fiyat almayınız!
+                                  </div>
                               </div>
                           </div>
                       </div>
