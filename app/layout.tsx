@@ -14,7 +14,7 @@ import whatsapp from "@/public/whatsapp.png";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kiriş Asansör |Denizli Kiralık Mobil Asansör",
+  title: "Kiriş Asansör |7/24 Denizli Kiralık Mobil Asansör",
   description: "faramps & zegemenim",
 };
 
