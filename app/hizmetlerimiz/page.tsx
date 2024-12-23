@@ -8,14 +8,16 @@ export default function Hizmetlerimiz() {
                     Hizmetlerimiz
                 </h1>
                 <div className={"font-serif  mx-24 mt-8 text-lg "}>
-                    <p className={"mb-4"}>
+
+                    <h1 className={"mb-4"}>
                         Kiriş Mobil Asansör olarak, Denizli’de evden eve nakliyat sektöründe yenilikçi ve
                         güvenilir çözümler sunmak için buradayız. Yılların verdiği tecrübe ile taşınma sürecinizi
                         kolaylaştırmak ve eşyalarınızı en güvenli şekilde yeni adresinize ulaştırmak için mobil
                         asansörlü nakliyat hizmetini hayata geçirdik. Nakliyat sektörü, her zaman dikkat ve özen
                         gerektiren bir alandır. Biz de bu bilinçle hareket ederek, eşyalarınızı taşırken en yüksek
-                        kalite standartlarını koruyoruz.
-                    </p>
+                        kalite standartlarını koruyoruz.</h1>
+
+
                     <p className={"mb-4"}>
                         Denizli ve çevresinde taşınmanın ne kadar zahmetli olabileceğini biliyoruz. Özellikle yüksek
                         katlı binalarda oturanlar için eşyaların taşınması büyük bir stres kaynağı olabilir. Geleneksel
@@ -94,6 +96,11 @@ export default function Hizmetlerimiz() {
                         hızdan ödün vermeyen hizmet anlayışımızla yanınızdayız. Bizi tercih ederek taşınma sürecinizin
                         ne kadar kolay olabileceğini keşfedin.
                     </p>
+                    <h1 className={"text-white"}>Denizli mobil asansör</h1>
+                    <h1 className={"text-white"}>Denizli mobil asansör</h1>
+                    <h1 className={"text-white"}>Denizli Mobil Asansör</h1>
+                    <h1 className={"text-white"}>denizli mobil asansör</h1>
+
                 </div>
             </div>
         </main>

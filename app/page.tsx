@@ -11,11 +11,12 @@ import sira4 from "@/public/sıra4.jpeg"
 import sira5 from "@/public/5sıra.jpeg"
 import sira2 from  "@/public/sira2.jpeg"
 import sira3 from  "@/public/sira3.jpeg"
+import hakhak from "@/public/hakhak.jpeg"
 
 
 export default function Home() {
     useEffect(() => {
-        const texts = ["Kiriş Asansör", "Asansör İle Eşyalarınızı taşıyın!", "Denizli Asansör","Moloz alım","Mobilya , Pimapen Çıkartım"];
+        const texts = ["Kiriş Asansör", "7/24 Asansör İle Eşyalarınızı taşıyın!", "7/24 Denizli Asansör","Moloz alım","Mobilya , Pimapen Çıkartım"];
         let index = 0;
 
         function typeText(text: string, callback: () => void) {
@@ -67,7 +68,7 @@ export default function Home() {
                   {/*<Image src={asansor} alt={"Asansör"} className={"opacity-10 absolute w-screen h-screen"}></Image>*/}
                   <div className="grid gap-2">
                       <h1 id={"animatedText"} className={"text-6xl font-bold z-10 fadeInOut"}>Kiriş Asansör</h1>
-                      <p className={"text-md z-10"}>Denizli Asansör</p>
+                      <h1 className={"text-md z-10"}>Denizli Mobil Asansör</h1>
                       <div className={"z-10 flex justify-center"}>
                           <Link href={"/iletisim"}
                                 className={"border-blue-700 hover:bg-gradient-to-r from-teal-500 to-blue-500 hover:shadow-lg hover:shadow-sky-400 hover:border-sky-400 transition-all duration-700 text-white opacity-100 border-2 p-2 rounded-2xl"}>İletişime
@@ -82,37 +83,61 @@ export default function Home() {
                   </h1>
                   <div className={"md:grid grid-cols-6 mx-[10%] gap-4 my-4 justify-center items-center"}>
                       <div className={"col-span-2 hidden md:grid"}>
-                          <Image className={"rounded-xl"} src={hak1} alt={"hak1"}></Image>
+                          <Image className={"rounded-xl"} src={hakhak} alt={"hakhak"}></Image>
                       </div>
-                      <div className="col-span-4 ml-4  "><h1>
-                          Denizli Asansör Kiralama sektöründe uzun yıllardır güvenle hizmet veren Kiriş Asansör,
-                          Denizlideki her türlü taşıma ihtiyacınız için kaliteli ve uygun fiyatlı kiralık asansör
-                          çözümleri sunmaktadır. Kiriş Asansör olarak, Denizlide evden eve nakliyat, inşaat malzemesi
-                          taşıma, mobilya taşınması, moloz taşıma ve ofis taşınması gibi zorlu işlemleri
-                          kolaylaştırıyoruz. Denizli deki taşınma süreçlerini daha hızlı, güvenli ve verimli hale
-                          getirmek için güçlü ve yüksek kapasiteli kiralık asansörlerimiz ile taşıma işlerinizi sorunsuz
-                          bir şekilde gerçekleştiriyoruz.
+                      <div className="col-span-4 ml-4  ">
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör,Denizli mobil asansör,Denizli mobil
+                              asansör,Denizli mobil asansör,Denizli mobil asansör,Denizli mobil asansör,</h1>
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör,Denizli mobil asansör,Denizli mobil
+                              asansör,Denizli mobil asansör,Denizli mobil asansör,Denizli mobil asansör,</h1>
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör,Denizli mobil asansör,Denizli mobil
+                              asansör,Denizli mobil asansör,Denizli mobil asansör,Denizli mobil asansör,</h1>
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör,Denizli mobil asansör,Denizli mobil
+                              asansör,Denizli mobil asansör,Denizli mobil asansör,Denizli mobil asansör,</h1>
+                          <h1>
 
-                          Kiriş Asansör, Denizlideki müşterilerine her türlü taşınma ve yük taşıma işleminde en iyi
-                          çözümleri sunar. Yüksek katlara inşaat malzemesi taşımak, ağır mobilyaları yeni evinize
-                          güvenle taşımak veya ofis taşınması gibi işlemler için Denizli asansör kiralama hizmetimiz her
-                          zaman yanınızda. Gelişmiş teknolojilere sahip kiralık asansörlerimiz sayesinde taşıma
-                          işlemlerinizde iş gücünden tasarruf sağlarken, işlerinizi daha hızlı ve güvenli bir şekilde
-                          tamamlıyoruz.
 
-                          İster büyük bir inşaat projesi, ister küçük bir ev taşıma işlemi olsun, Denizlide Kiriş
-                          Asansör her türlü ihtiyaca yönelik uygun fiyatlarla kiralık asansör hizmeti sunmaktadır.
-                          Denizli asansör kiralama ihtiyacınızda, taşınma işlemlerinizi kolaylaştırmak ve zamandan
-                          tasarruf sağlamak için bizimle iletişime geçebilirsiniz. Kiriş Asansör ile Denizlideki taşıma
-                          işleriniz hızlı, güvenli ve ekonomik şekilde tamamlanır.
+                              Denizli Asansör Kiralama sektöründe uzun yıllardır güvenle hizmet veren Kiriş Asansör,
+                              Denizlideki her türlü taşıma ihtiyacınız için kaliteli ve uygun fiyatlı kiralık
+                              asansör
+                              çözümleri sunmaktadır. Kiriş Asansör olarak, Denizlide evden eve nakliyat, inşaat
+                              malzemesi
+                              taşıma, mobilya taşınması, moloz taşıma ve ofis taşınması gibi zorlu işlemleri
+                              kolaylaştırıyoruz. Denizli deki taşınma süreçlerini daha hızlı, güvenli ve verimli
+                              hale
+                              getirmek için güçlü ve yüksek kapasiteli kiralık asansörlerimiz ile taşıma işlerinizi
+                              sorunsuz
+                              bir şekilde gerçekleştiriyoruz.
 
-                          Kiriş Asansör, Denizlide kiralık asansör çözümleri ile taşınma, inşaat malzemesi taşıma,
-                          moloz taşımacılığı ve daha fazlası için en güvenilir, en pratik ve en ekonomik seçeneği
-                          sunmaktadır. Hemen bizi arayın ve Denizlideki asansör kiralama ihtiyaçlarınızda profesyonel
-                          destek alın!
+                              Kiriş Asansör, Denizlideki müşterilerine her türlü taşınma ve yük taşıma işleminde en
+                              iyi
+                              çözümleri sunar. Yüksek katlara inşaat malzemesi taşımak, ağır mobilyaları yeni
+                              evinize
+                              güvenle taşımak veya ofis taşınması gibi işlemler için Denizli asansör kiralama
+                              hizmetimiz
+                              her
+                              zaman yanınızda. Gelişmiş teknolojilere sahip kiralık asansörlerimiz sayesinde taşıma
+                              işlemlerinizde iş gücünden tasarruf sağlarken, işlerinizi daha hızlı ve güvenli bir
+                              şekilde
+                              tamamlıyoruz.
 
-                          *Mobil Asansörlü Nakliyat Hizmeti ile Kolay Taşınma*
-                      </h1>
+
+                              Kiriş Asansör, Denizlide kiralık asansör çözümleri ile taşınma, inşaat malzemesi
+                              taşıma,
+                              moloz taşımacılığı ve daha fazlası için en güvenilir, en pratik ve en ekonomik
+                              seçeneği
+                              sunmaktadır. Hemen bizi arayın ve Denizlideki asansör kiralama ihtiyaçlarınızda
+                              profesyonel
+                              destek alın!
+
+                              *Mobil Asansörlü Nakliyat Hizmeti ile Kolay Taşınma*
+
+
+                          </h1>
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör kiralama </h1>
+                          <h1 className={"text-blue-900"}>Denizli mobil asansör kiralama</h1>
+                          <h1 className={"text-blue-900"}>Denizli Mobil Asansör kiralama</h1>
+                          <h1 className={"text-blue-900"}>denizli mobil asansör kiralama</h1>
                           {/*Firmamızın sunduğu asansörlü nakliyat hizmeti, taşınma sürecini daha hızlı ve güvenli hale*/}
                           {/*getiren bir çözümdür. Eşyalarınızı binadan indirmek veya binaya çıkarmak için özel olarak*/}
                           {/*tasarlanmış mobil asansörlerimiz, zamandan tasarruf etmenizi sağlarken, eşyalarınızın da zarar*/}

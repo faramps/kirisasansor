@@ -27,7 +27,7 @@ export default function FooterComponent() {
                                 Ulaşın&nbsp;&nbsp;&nbsp;</a>
                         </div>
                     </li>
-                    <li className={"grid text-white"}>
+                    <li className={"grid text-white"}><h1>babanı
                         Kiriş Kiralık Mobil Asansör olarak, Denizli’de evden eve nakliyat sektöründe yenilikçi ve
                         güvenilir çözümler sunmak için buradayız. Yılların verdiği tecrübe ile taşınma sürecinizi
                         kolaylaştırmak ve eşyalarınızı en güvenli şekilde yeni adresinize ulaştırmak için mobil
@@ -95,8 +95,9 @@ export default function FooterComponent() {
                         Eğer siz de Denizli’de asansörlü nakliyat hizmetine ihtiyaç duyuyorsanız, Kiriş Kiralık Mobil
                         Asansör olarak size en iyi hizmeti sunmak için buradayız. Eşyalarınızı taşırken güven, kalite ve
                         hızdan ödün vermeyen hizmet anlayışımızla yanınızdayız. Bizi tercih ederek taşınma sürecinizin
-                        ne kadar kolay olabileceğini keşfedin.
+                        ne kadar kolay olabileceğini keşfedin.</h1>
                     </li>
+
 
                 </ul>
             </div>
