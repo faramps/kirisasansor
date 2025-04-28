@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Kiriş Asansör |7/24 Denizli Kiralık Mobil Asansör",
-  description: "faramps & zegemenim",
+  description: "faramps",
 };
 
 export default function RootLayout({
@@ -46,7 +46,7 @@ export default function RootLayout({
         <Link href={"/"}><Image src={logo} width={125} height={125} alt={"Kiriş Nakliyat"} className={"hover:h-[150px] hover:w-[150px] duration-300"}></Image></Link>
         <ul className={"flex space-x-6"}>
             <li className={"text-blue-900 hover:text-blue-700"}>
-                <a href={"/hizmetlerimiz"} className={"hover:text-lg duration-300"}>Hizmetlerimiz</a>
+                <a href={"/Galeri"} className={"hover:text-lg duration-300"}>   Galeri</a>
             </li>
             <li className={"hidden md:flex text-blue-900 hover:text-blue-700"}>
                 <a href={"/iletisim"} className={"hover:text-lg duration-300"}>İletişim</a>
