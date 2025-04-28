@@ -28,7 +28,7 @@ const Index = () => {
             <Link href={"/"}><Image src={logo} width={125} height={125} alt={"Kiriş Nakliyat"}/></Link>
             <ul className={"flex space-x-6"}>
                 <li className={"text-blue-900 hover:text-blue-700"}>
-                    <a href={"/Galeri"}>Galeri</a>
+                    <a href={"/Galeri"}> Galeri</a>
                 </li>
                 <li className={"text-blue-900 hover:text-blue-700"}>
                     <a href={"/iletisim"}>İletişim</a>
